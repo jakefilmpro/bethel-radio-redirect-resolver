@@ -29,6 +29,6 @@ Use Cases
 - Extracting final URLs from redirect chains
 - Proxy service for web applications with restricted client-side fetch
 
-**Deployment
+**Deployment**
 Deployed on Vercel's edge network for global low-latency access. 
 Can be deployed to any Node.js-compatible serverless platform.
