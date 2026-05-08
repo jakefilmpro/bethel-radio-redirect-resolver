@@ -1,0 +1,1 @@
+# bethel-radio-redirect-resolver
