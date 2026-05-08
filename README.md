@@ -28,5 +28,7 @@ Use Cases
 - Bypassing CORS restrictions for image CDN URLs
 - Extracting final URLs from redirect chains
 - Proxy service for web applications with restricted client-side fetch
-Deployment
-Deployed on Vercel's edge network for global low-latency access. Can be deployed to any Node.js-compatible serverless platform.
+
+**Deployment
+Deployed on Vercel's edge network for global low-latency access. 
+Can be deployed to any Node.js-compatible serverless platform.
