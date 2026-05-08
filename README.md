@@ -17,6 +17,8 @@ GET /api/resolve?url=https://artwork.rcast.net/73642
 {
   "finalUrl": "https://cdn.rcast.net/cache/artists/eb18ba662d172903c7a9f5886fedf5e9.png"
 }
+
+
 Tech Stack
 - Node.js
 - Vercel Serverless Functions
