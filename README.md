@@ -1,6 +1,7 @@
 # bethel-radio-redirect-resolver
 
-Bethel Radio Redirect Resolver - Serverless Proxy API
+**Bethel Radio Redirect Resolver - Serverless Proxy API**
+
 A lightweight serverless function designed to resolve HTTP redirects server-side. This utility was built specifically for the Bethel Radio Brandon web player to overcome CORS restrictions when fetching dynamically redirected artwork URLs.
 The Problem
 Many media APIs and CDNs use redirect chains (302/301 responses) to serve content from optimized CDN locations. When a browser-based web app tries to follow these redirects directly, it often encounters CORS (Cross-Origin Resource Sharing) errors, preventing the app from accessing the final resolved URL.
@@ -18,8 +19,7 @@ GET /api/resolve?url=https://artwork.rcast.net/73642
   "finalUrl": "https://cdn.rcast.net/cache/artists/eb18ba662d172903c7a9f5886fedf5e9.png"
 }
 
-
-Tech Stack
+**Tech Stack**
 - Node.js
 - Vercel Serverless Functions
 - Native fetch API with redirect following
